@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap');
+
+
+
+:root{
+    --primary-color:#3BA2CD;
+    --secondary-color:hsl(45, 19%, 69%);
+    --my-font:"IBM Plex Sans Arabic";
+    --button-color:#263CA2;
+    --english-accent-border-color:#563F39;
+    --footer-color:#808B99;
+}
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+    
+}
+.heading {
+    background-color:var(--primary-color);
+    height: 140px;
+    width:auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 140px;
+    
+}
+.heading h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family:"IBM Plex Sans Arabic","Sans-serifll";
+    
+   
+}
+
+.english-inp{
+    font-family:var(--my-font);
+}
+#inp-txt {
+    width: 230px;
+    height: 50px;
+    font-family: var(--my-font);
+    word-spacing: 2px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius:5px ;
+    border:3px solid  var(--english-accent-border-color);
+}
+
+#btn-translate {
+    margin-top: 20px;
+    background-color: var(--button-color);
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:5px;
+    color: wheat;
+}
+.russian-op{
+    font-family: var(--my-font);
+}
+
+.output-txt {
+    font-family: var(--my-font);
+    background-color: var(--secondary-color);
+    width: 60%;
+    
+     border-radius: 5px;
+    
+    border:3px solid black;
+
+    margin:auto;
+}
+
+.output-txt p{
+    font-family: var(--my-font);
+}
+
+.about{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: var(--my-font);
+    background-color: var(--footer-color);
+    color: whitesmoke;
+    padding-bottom: 34px;
+   
+}
+
+.footer-header{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: var(--my-font);
+    margin-top:20px relative;
+    margin-top: 15px;
+}
+
+.footer-content{
+    font-family: var(--my-font);
+    font-size: 15px;   
+}
